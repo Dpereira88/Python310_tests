@@ -14,10 +14,10 @@ def helloworld():
     print(msg)
 
 def select_case_test(status_test):
-    match status_test:
-        case 400:
+    match status:
+        case 50:
             print("Bad")
-        case 400:
+        case 40:
             print("GOOD")
         case _:
             print("All cases not listed above")
@@ -31,6 +31,6 @@ def test_open_file():
 
 
 helloworld()
-status_test = 400
+status_test = 40
 select_case_test(status_test)
 test_open_file()
